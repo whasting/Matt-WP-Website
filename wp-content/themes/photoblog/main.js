@@ -68,6 +68,10 @@ $(document).ready(function() {
   positionHoverText();
 });
 
+$(window).load(function() {
+  positionHoverText();
+});
+
 const positionHoverText = () => {
   for (let i = 0; $(`.img-description-${i}`).siblings().position(); i++) {
     let element = $(`.img-description-${i}`);
@@ -79,7 +83,7 @@ const positionHoverText = () => {
       'width': element.siblings().width()
     });
   }
-}
+};
 
 const scrollLock = $.scrollLock = ( function scrollLockClosure() {
     'use strict';
