@@ -1,6 +1,3 @@
 <?php
   the_content();
-
-  
-
 ?>

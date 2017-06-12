@@ -28,17 +28,19 @@
           alt="">
       </a>
       <ul class="nav-items">
-        <li class="nav-item">Adventures</li>
+        <?php wp_list_pages( '&title_li=' ); ?>
+        <!-- <li class="nav-item">Adventures</li>
         <li class="nav-item">Matt</li>
-        <li class="nav-item">Contact</li>
+        <li class="nav-item">Contact</li> -->
         <!-- <button class="donate-button" type="button" name="button">Donate</button> -->
-        <li class="hamburger">
-          <img src="http://res.cloudinary.com/whasting/image/upload/c_scale,h_50/v1496187109/menu-button-of-three-horizontal-lines_ka7bqa.png" alt="">
-        </li>
       </ul>
+      <li class="hamburger">
+        <img src="http://res.cloudinary.com/whasting/image/upload/c_scale,h_50/v1496187109/menu-button-of-three-horizontal-lines_ka7bqa.png" alt="">
+      </li>
       <div class="menu">
-        <a class="menu-item one" href="#">Adventures</a>
+        <?php wp_list_pages( '&title_li=' ); ?>
+        <!-- <a class="menu-item one" href="#">Adventures</a>
         <a class="menu-item two" href="#">Matt</a>
-        <a class="menu-item one " href="#">Contact</a>
+        <a class="menu-item one " href="#">Contact</a> -->
       </div>
     </nav>
