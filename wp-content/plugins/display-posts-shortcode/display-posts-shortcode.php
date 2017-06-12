@@ -389,20 +389,6 @@ function be_display_posts_shortcode( $atts ) {
 
 	// BEGIN TESTING
 
-	// $tags = get_tags();
-	// $new_tag = var_dump($tags[0]->name);
-	// $html = 'BEGIN';
-	// // $test = in_array('covelo', $tags);
-	// // $test = $tags[0];
-	// // $test = (string)$test;
-	// foreach ( $tags as $tag ) {
-	// 	$tag_link = get_tag_link( $tag->term_id );
-	//
-	// 	$html .= ", NAME {$tag->name}, SLUG {$tag->slug}";
-	// }
-	// $html .= 'END';
-	// echo "<script>console.log('$test');</script>";
-
 	//END TESTING
 
 	while ( $listing->have_posts() ): $listing->the_post(); global $post;
