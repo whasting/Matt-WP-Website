@@ -60,8 +60,6 @@ $('.menu-item').click(function() {
   menuOpen = false;
 });
 
-// $('.hero-img').parallax({imageSrc: 'https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/11705668_10206384173823929_5426240319423920261_o.jpg?oh=f1357fc4246cf7b5df41fc7d9f7d2b4c&oe=59A28F6A'});
-
 $(document).ready(function() {
   $('p').has('.hero-img').addClass('hero');
 
